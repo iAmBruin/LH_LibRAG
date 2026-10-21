@@ -1,0 +1,49 @@
+# ==================== 虚拟环境 ====================
+.venv/
+venv/
+env/
+
+# ==================== Python 缓存/产物 ====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+
+# ==================== IDE / 编辑器 ====================
+.idea/
+.vscode/
+*.iml
+
+# ==================== 日志 ====================
+logs/
+*.log
+
+# ==================== 敏感配置（含数据库密码 / API Key）====================
+config.ini
+.env
+.env.*
+*.local
+
+# ==================== 本地大模型权重（运行时需自行下载放入，禁止提交）====================
+rag_qa/models/
+rag_qa/core/bert_query_classifier/
+
+# ==================== BERT 训练产物（checkpoint/optimizer，体积巨大）====================
+rag_qa/core/bert_outputs/
+rag_qa/core/bert_results/
+rag_qa/core/output/
+
+# ==================== 数据集 / 评估数据 ====================
+rag_qa/data/
+rag_qa/classify_data/
+rag_qa/rag_assesment/
+mysql_qa/data/
+
+# ==================== 操作系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini

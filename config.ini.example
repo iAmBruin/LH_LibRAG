@@ -1,0 +1,49 @@
+# 配置文件示例（脱敏版）
+# 复制本文件为 config.ini，填入你的实际值即可。
+#   命令（Windows PowerShell）: Copy-Item config.ini.example config.ini
+# 注意: config.ini 已被 .gitignore 忽略，不会提交到 GitHub，请勿把真实的 API Key / 密码写进代码或提交文件。
+
+# MySQL 配置
+[mysql]
+host = localhost
+user = root
+password = your_mysql_password
+database = lhlib_kg
+
+# Redis 配置
+[redis]
+host = localhost
+port = 6379
+password = your_redis_password
+db = 0
+
+# Milvus 配置
+[milvus]
+host = localhost
+port = 19530
+database_name = lhlib_kg
+collection_name = proj_rag
+
+# LLM 配置
+[llm]
+model = qwen-plus
+# 实际读取的是环境变量 API_KEY（DashScope 密钥），此处留空即可
+dashscope_api_key =
+dashscope_base_url = https://dashscope.aliyuncs.com/compatible-mode/v1
+
+# 检索参数配置
+[retrieval]
+parent_chunk_size = 1200
+child_chunk_size = 300
+chunk_overlap = 50
+retrieval_k = 3
+candidate_m = 2
+
+# 日志配置（建议改为相对路径，便于跨机器）
+[logger]
+log_file = logs/app.log
+
+# 应用配置
+[app]
+valid_sources = ["馆藏信息", "借阅规则", "办理读者证", "馆内服务", "相关规定"]
+customer_service_phone = your_service_phone
