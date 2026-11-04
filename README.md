@@ -29,6 +29,8 @@
 
 ## 项目展示
 
+<img width="3196" height="2160" alt="Image" src="https://github.com/user-attachments/assets/8ed8a7e8-8f30-48e3-8dc4-18cedc851a8c" />
+
 [<video src="https://github.com/user-attachments/assets/7699d5c9-e595-4be3-a8a7-6a222d1f51e5" controls></video>](https://github.com/user-attachments/assets/ac3fe689-6cae-428f-a439-204cb309b080)
 
 展示gif：加载快，但清晰度低
