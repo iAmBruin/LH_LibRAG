@@ -31,6 +31,9 @@
 
 [<video src="https://github.com/user-attachments/assets/7699d5c9-e595-4be3-a8a7-6a222d1f51e5" controls></video>](https://github.com/user-attachments/assets/ac3fe689-6cae-428f-a439-204cb309b080)
 
+展示gif：加载快，但清晰度低
+<img width="356" height="240" alt="Image" src="https://github.com/user-attachments/assets/cf8bf12e-05ce-4dda-8d10-5f3bc6f9386e" />
+
 ## 主要功能
 
 - **问候语处理**：对常见问候及告别语进行规则识别，并返回相应回复。
