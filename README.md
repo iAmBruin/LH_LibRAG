@@ -29,7 +29,7 @@
 
 ## 项目展示
 
-<video src="https://github.com/user-attachments/assets/7699d5c9-e595-4be3-a8a7-6a222d1f51e5" controls></video>
+[<video src="https://github.com/user-attachments/assets/7699d5c9-e595-4be3-a8a7-6a222d1f51e5" controls></video>](https://github.com/user-attachments/assets/ac3fe689-6cae-428f-a439-204cb309b080)
 
 ## 主要功能
 
